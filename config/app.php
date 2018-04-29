@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+    'timezone' => 'America/Lima',
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'es',
 
     /*
     |--------------------------------------------------------------------------
@@ -154,11 +154,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        PuntoDePartida\Providers\AppServiceProvider::class,
+        PuntoDePartida\Providers\AuthServiceProvider::class,
+        // PuntoDePartida\Providers\BroadcastServiceProvider::class,
+        PuntoDePartida\Providers\EventServiceProvider::class,
+        PuntoDePartida\Providers\RouteServiceProvider::class,
 
     ],
 
